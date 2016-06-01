@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+body{
+    font-size: 12px;
+}
+
+.carousel-inner > .item {
+        height: 400px;
+    }
+
+
+@media (min-width: 768px) {
+    body{
+        font-size: 12px;
+    } .carousel-inner > .item {
+        height: 400px;
+    }
+
+    .carousel-inner > .item {
+        height: 400px;
+    }
+
+    .col-sm-height {
+        display: table-cell;
+        float: none !important;
+    }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body{
+        font-size: 12px;
+    }
+
+    .carousel-inner > .item {
+        height: 400px;
+    }
+
+    .col-md-height {
+        display: table-cell;
+        float: none !important;
+    }
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body{
+        font-size: 13px;
+    }
+
+    .carousel-inner > .item {
+        height: auto;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .col-lg-height {
+        display: table-cell;
+        float: none !important;
+    }
+
+
+}
+
+@media (min-width: 1600px) {
+    body{
+        font-size: 14px;
+    }
+     .carousel-inner > .item {
+        height: auto;
+    }
+}
+
+
+
+
+
+/* columns of same height styles */
+
+.row-full-height {
+    height: 100%;
+}
+.col-full-height {
+    height: 100%;
+    vertical-align: middle;
+}
+.row-same-height {
+    display: table;
+    width: 100%;
+    /* fix overflow */
+    table-layout: fixed;
+}
+.col-xs-height {
+    display: table-cell;
+    float: none !important;
+}
+
+
+/* vertical alignment styles */
+
+.col-top {
+    vertical-align: top;
+}
+.col-middle {
+    vertical-align: middle;
+}
+.col-bottom {
+    vertical-align: bottom;
+}
+
+
+.my-title{
+    padding: 15px;
+    font-size: 1.6em;
+    background-color: #507f4b;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    opacity: 0.9;
+}
+
+.realizacje-bg1{
+    background-color: rgba(102, 53, 51,0.90);
+}
+.realizacje-bg2{
+    background-color: rgba(54, 64, 99, 0.8);
+}
+.realizacje-bg3{
+    background-color: rgba(18, 73, 135,0.75);
+}
+.realizacje-bg4{
+    background-color: rgba(143, 134, 112, 0.75);
+}
+.realizacje-bg5{
+    background-color: rgba(143, 61, 36,0.85);
+}
+.realizacje-bg6{
+    background-color: rgba(56, 71, 101, 0.9);
+}
+.realizacje-bg7{
+    background-color: rgba(192, 130, 89, 0.9);
+}
+
+.realizacje-bg8{
+    background-color: rgba(228, 197, 103, 0.9);
+}
+.realizacje-bg9{
+    background-color: rgba(222, 139, 84, 0.9);
+}
+
+.realizacje-bg10{
+    background-color: rgba(201, 163, 79, 0.8);
+}
+
+
+
+
+.realizacje-content{
+    color: #ffffff;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+}
+.no-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.my-carousel-caption01 {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+.navbar-default {
+    font-size: 1.3em;
+}
+.dropdown-menu {
+    font-size: 1em;
+}
+
+
